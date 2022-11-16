@@ -1,0 +1,156 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color:darkseagreen;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f
+}
+
+/*Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Trebuchet MS';
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px
+}
+
+.navbar-link {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0%
+}
+
+/*Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+    position:static;
+    transform: rotate(0)
+    }
+}
+
+/*Features Section */
+#features {
+    padding: 7% 15%; 
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: burlywood;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: darkseagreen
+}
+
+/*Testimonials Section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: darkseagreen;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color: #000
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin:20px 10px;
+}
+
+/*Call to Action Section CTA */
+#cta {
+    background-color: darkseagreen;
+    color: black;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
